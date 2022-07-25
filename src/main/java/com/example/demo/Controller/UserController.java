@@ -14,4 +14,12 @@ public class UserController {
     public String home() {
         return "Hello Luis and Gerardo -------> teacher : colochin";
     }
+
+
+    @GetMapping("prueba")
+    public String prueba() {
+        return "aqui sierra 117 ";
+    }
+
+
 }
