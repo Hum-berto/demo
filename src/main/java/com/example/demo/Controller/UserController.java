@@ -12,6 +12,6 @@ public class UserController {
 
     @GetMapping("person")
     public String home() {
-        return "Hello Luis and Gerardo ------- teacher : colochin";
+        return "Hello Luis and Gerardo -------> teacher : colochin";
     }
 }
